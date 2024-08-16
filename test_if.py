@@ -9,8 +9,6 @@ elif edad == 18:
 else:
     print("Eres menor de edad")
 
-'''
-
 #Segundo ejemplo
 
 numeroUno = int(input("Ingresa el primer numero : "))
@@ -21,3 +19,5 @@ elif numeroUno < numeroDos:
     print(f"El numero {numeroDos} es mayo que {numeroUno}")
 else:
     print("Los numeros son iguales")
+    
+'''
