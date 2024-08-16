@@ -19,5 +19,10 @@ elif numeroUno < numeroDos:
     print(f"El numero {numeroDos} es mayo que {numeroUno}")
 else:
     print("Los numeros son iguales")
-    
+
 '''
+calificacion = int(input("Ingresa tu calificación : "))
+if calificacion > 100:
+    print("Pasaste la materia")
+else:
+    print("No pasaste")
