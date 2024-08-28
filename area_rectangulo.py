@@ -25,3 +25,17 @@ print(f"El resultado del perimetro del rectangulo es: {perimetroRectangulo}")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
