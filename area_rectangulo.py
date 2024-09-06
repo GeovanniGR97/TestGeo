@@ -15,7 +15,6 @@ print(f"El area del triangulo es: {triangulo} " )
 
 
 
-
 altoArea = int(input("Escribe la altura del rectangulo:  "))
 anchoArea = int(input("Escribe el ancho del rectangulo:  "))
 areaRectangulo = altoArea * anchoArea
