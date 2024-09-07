@@ -1,7 +1,5 @@
-curso = input("Ingresa el curso que deseas: ")
-if curso in ("Matematicas", "Ciencias computacionales", "Programacion", "Data science"):
-    print (f"Curso {curso} selecionado 😎")
+cuervosUtvt = input("Ingresa la carrea que deseas cursar: ")
+if cuervosUtvt in ("IDGS", "Meca", "Manto"):
+    print(f"La carrera que elegiste es : {cuervosUtvt}😎")
 else:
-    print("El curso no existe")
-
-
+    print("La carrera no existe.....☹️")
