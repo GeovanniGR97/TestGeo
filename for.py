@@ -20,11 +20,17 @@ for datosBucle in ejmBucle:
 else:
     print("Fin del bucle ")
 
-"""
-i  = [1,2,3,4,5,6,7,8,9]
+    i  = [1,2,3,4,5,6,7,8,9]
 for i in range(6):
     print(i)
 
+"""
+numero = 10
+def mostrar_linea(num, linea):
+    print(num, "x", linea, "=", num * linea)
+for n in range(10):
+    mostrar_linea(numero, n)
+ 
 
 
 
