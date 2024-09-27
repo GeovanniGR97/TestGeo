@@ -23,14 +23,51 @@ else:
     i  = [1,2,3,4,5,6,7,8,9]
 for i in range(6):
     print(i)
-
-"""
+------------------Repasar----------
 numero = 10
 def mostrar_linea(num, linea):
     print(num, "x", linea, "=", num * linea)
 for n in range(10):
     mostrar_linea(numero, n)
- 
+
+cadena = 'Geovanni'
+for letra in cadena:
+    print(letra)
+else:
+    print('Fin del ciclo') 
+
+    
+numero = [5, 8, 6, 45]
+for valor in numero:
+    print(valor)
+
+
+colores = ["rojo", "rosa", "verde", "azul"]
+for color in colores:
+    print(color)
+else:
+    print("Se termino la lista de los colores")
+
+lista = range(1,5)
+for lst in lista:
+    print(lst)
+
+    listaTres = range(1, 20, 2)
+for z in listaTres:
+    print(z)
+
+    """
+tabla = int(input("Ingresa la tabla que deseas: "))
+for i in range(1,11):
+    resultado = i * tabla
+    print(f"{tabla} * {i} = {resultado}")
+
+
+
+
+
+
+
 
 
 
