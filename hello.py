@@ -89,7 +89,7 @@ En este ejemplo:
 divmod(17, 5) devuelve la tupla (3, 2):
 Cociente: Al dividir 17 entre 5, el cociente es 3 (porque 5 * 3 = 15).
 Residuo: El residuo es 2, porque 17 - 15 = 2.
-Luego, esos dos valores se asignan a las variables cociente y residuo, y se imprimen.
+Posteriormente, esos dos valores se asignan a las variables cociente y residuo, y se imprimen.
 
 Este tipo de función es útil cuando necesitas tanto el cociente como el residuo de una división en una sola operación.
 '''
@@ -109,7 +109,6 @@ print(len(dataName))
 dataConjuntos = ['j', 56, 'k', 'l']
 print(len(dataConjuntos))
 
-'''
 datoNumeroUno = int(input("Ingresa el primer numero: "))
 datoNumeroDos = int(input("Ingresa el segundo numero: "))
 if datoNumeroUno > datoNumeroDos:
@@ -119,3 +118,18 @@ elif datoNumeroUno < datoNumeroDos:
 else:
     print(f"El numero {datoNumeroUno} y {datoNumeroDos} son iguales..")
     
+datoPrimario = int(input("Ingresa el dato de la tabla que deseas visualizar: "))
+for i in range(1,11):
+    resultado = datoPrimario * i
+    print(f"{datoPrimario} * {i} = {resultado}")
+    
+
+'''
+
+
+
+c, r = divmod(17,5)
+print(f"cociente: {c}")
+print(f"residuo:{r}")
+
+

@@ -1,5 +1,5 @@
-valUno = 20
-valDos = 20
+valUno = 10
+valDos = 5
 valDivision = valUno / valDos
 valUser = int(input("La respuesta es: "))
 if valDivision == valUser:

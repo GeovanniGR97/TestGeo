@@ -26,7 +26,7 @@ print(listaUno)
 
 pares = []
 for i in range(10):
-    if i % 2 == 0:
+    if i % 2 == 0: #
         pares.append(i)
 print(pares)  # Output: [0, 2, 4, 6, 8]
 
