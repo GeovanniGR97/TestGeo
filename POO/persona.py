@@ -12,7 +12,8 @@ Modularización: división en pequeñas partes de un programa completo
 "FACIL CORREGIR LOS FALLOS"
 Encapsulamiento: Ocultamiento del funcionamiento interno de un objetivo
 
-
+Clase: Plantilla de un objeto de la realidad
+Self = this 
 '''
 class persona():
     #Propiedades caracteristicas o atributos
