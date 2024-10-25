@@ -8,7 +8,7 @@ class Auto:
         print(f'Marca: {self.marca}')
         print(f'Modelo: {self.modelo}')
         print(f'Color: {self.color}')
-        print(f'Ciudad: {self.ciudad}')
+        print(f'Ciudad: {self.__ciudad}')
 
 auto = Auto('Volkswagen', '2023', 'Rojo', 'CDMX')
 auto.mostrar_datos()
