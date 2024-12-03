@@ -22,7 +22,7 @@ else:
 
 '''
 calificacion = int(input("Ingresa tu calificación : "))
-if calificacion > 100:
+if calificacion >= 80:
     print("Pasaste la materia")
 else:
     print("No pasaste")

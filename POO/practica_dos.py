@@ -1,25 +1,16 @@
-class Pokemon:
+from practica_tres import PokemonH
+
+class Pokemon(PokemonH):
     __tipo = 'Electrico'  # Atributo de clase
     
     def __init__(self, nombre, color, nivel, voltaje_max, amperaje_max):
-        self.nombre = nombre
-        self.color = color
-        self.__nivel = nivel
+        super().__init__(nombre=nombre, nivel=nivel, color=color)
         self.__voltaje_max = voltaje_max
         self.__amperaje_max = amperaje_max
+        self.__nivel = nivel
 
     # Propiedad para acceder a `__nivel`
-    @property
-    def nivel(self):
-        return self.__nivel
-
-    # Setter para modificar `__nivel` con validación
-    @nivel.setter
-    def nivel(self, nivel):
-        if nivel >= 0 and nivel <=100:
-            self.__nivel = nivel
-        else:
-            print("El nivel no puede ser negativo.")
+   
 
     @property
     def voltaje_max(self):
@@ -49,7 +40,7 @@ class Pokemon:
 
     # Método para realizar el ataque
     def atacar(self):
-        print(f'{self.nombre} tiene un nivel de ataque de {self.__nivel / 4}')
+        print(f'{self.nombre} tiene un nivel de ataque de {self._PokemonH__nivel / 4}')
 
 # Crear una instancia de `Pokemon`
 volvasor = Pokemon('Volvasor', 'Verde', 215130, 5412351, 2630394)
@@ -61,8 +52,10 @@ print(f'El pokemon {volvasor.nombre} tiene un nivel {volvasor.nivel}')
 volvasor.nivel = 300000
 print(f'Nuevo nivel de {volvasor.nombre}: {volvasor.nivel}')
 
+
 # Intentar establecer un nivel negativo (inválido)
-volvasor.nivel = -100
+volvasor.nivel = 100
+
 print(f'Nivel actual de {volvasor.nombre}: {volvasor.nivel}')
 
 # Ejecutar el ataque para ver el nivel de ataque

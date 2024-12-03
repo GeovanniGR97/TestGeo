@@ -1,10 +1,8 @@
-
 cadena = 'Geovanni'
 for letra in cadena:
     print(letra)
 else:
     print('Fin del ciclo')
-
 
 testFor = 'Jose Geo'
 for name in testFor:
@@ -77,6 +75,8 @@ a, b = 0, 1
 for i in range(n):
     print(a)
     a, b = b, a + b
+
+
 
 
 

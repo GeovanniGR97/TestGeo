@@ -14,4 +14,3 @@ sueldoMexiano(sueldo)
 
 
 
-    

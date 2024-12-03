@@ -133,3 +133,7 @@ print(f"cociente: {c}")
 print(f"residuo:{r}")
 
 
+def salidaDato():
+    return "Hola con return"
+mensaje = salidaDato()
+print(mensaje)
