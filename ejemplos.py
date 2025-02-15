@@ -1,4 +1,11 @@
-lista = [1, 2, 3]
-for i in lista:
-    print(i)
-    
+def saludar():
+    return "hola"
+mensaje = saludar()
+print(mensaje)
+saludar()
+
+def concatenacion():
+    z = "1"
+    print(f"z = "+ z)
+concatenacion()
+

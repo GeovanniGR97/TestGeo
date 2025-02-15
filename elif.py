@@ -17,3 +17,4 @@ if 0 <= costo <= 500:
 
 else:
         print('no alcansa para comer')
+        

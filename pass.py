@@ -8,3 +8,6 @@ for numero in range(1, 6):
     else:
         print("El siguiente valor es mayor a 3..")
     print(f"El numero es: {numero}")
+
+a = "hola"
+print(a)

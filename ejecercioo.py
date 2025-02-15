@@ -18,4 +18,3 @@ for i in range(1,101):
     resultado = i * datoTabla
     print(f"{datoTabla} * {i} = {resultado}")
     
-    
